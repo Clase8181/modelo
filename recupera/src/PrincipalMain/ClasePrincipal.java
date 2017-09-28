@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication24;
+package PrincipalMain;
 
 /**
  *
  * @author Jaime
  */
-public class JavaApplication24 {
+public class ClasePrincipal {
 
     /**
      * @param args the command line arguments
