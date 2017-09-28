@@ -5,6 +5,9 @@
  */
 package PrincipalMain;
 
+import Clases.Usuario;
+import static Metodos.ValidarContraseña.verificar;
+
 /**
  *
  * @author Jaime
@@ -15,7 +18,11 @@ public class ClasePrincipal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Instanciar el objeto
+         Usuario usu = new Usuario();
+        usu.setContraenia("1231234");
+        usu.setNombre("Juan");   //Se hace la verificación
+        verificar(usu.getNombre(), usu.getContraenia());  //Mostrará el mensaje error.
     }
     
 }
